@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ribbon-demo1
+
+server:
+  port: 9201 #指定服务端口
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka/
